@@ -70,6 +70,10 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.container header {
+    position: fixed;
+    top: 0px;
+}
 
 .top-content {
     display: flex;
