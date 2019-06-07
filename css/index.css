@@ -132,16 +132,7 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
-/*  box1: teal
- box2: gold
- box3: cadetblue
- box4: coral
- box5: crimson
- box6: forestgreen
- box7: darkorchid
- box8: hotpink
- box9: indigo
- box10: dodgerblue */
+
 .middle-content .boxes .box1{
     background-color: teal;
 }
@@ -205,3 +196,7 @@ footer nav a {
     text-decoration: none;
 }
 /* About page css */
+
+.home-jumbotron h4{
+    padding-top: 10px;
+}
