@@ -82,7 +82,6 @@ p {
     flex-flow: row wrap;
     align-items: baseline;
     padding: 10px;
-
 }
 header nav a {
     text-decoration: none;
@@ -133,7 +132,46 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
-
+/*  box1: teal
+ box2: gold
+ box3: cadetblue
+ box4: coral
+ box5: crimson
+ box6: forestgreen
+ box7: darkorchid
+ box8: hotpink
+ box9: indigo
+ box10: dodgerblue */
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid
+}
+.middle-content .boxes .box8{
+    background-color: hotpink
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -166,3 +204,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* About page css */
