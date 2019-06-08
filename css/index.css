@@ -200,3 +200,8 @@ footer nav a {
 .home-jumbotron h4{
     padding-top: 10px;
 }
+ hr{
+    border: 1px dashed grey;
+    border-radius: 1px;
+    
+}
