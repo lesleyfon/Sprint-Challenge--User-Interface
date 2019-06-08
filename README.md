@@ -28,6 +28,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 ## Self-Study Questions
 
+
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
@@ -43,6 +44,26 @@ Edit this document to include your answers after each question. Make sure to lea
 5. Explain why git is valuable to a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+## Self-Study Answers
+1. Semantic html is building our html structure with html tags that have meaning. For example, building a header with the header tag, instead of using a div which doesnt really have any meaning to it. examples:
+    - Aside (<aside>)
+    - Section (<section>) 
+    - Footer(<footer>)
+It is also good to note that semantic html will help machines and screen readers be able to read our code.
+
+2. ```Display: inline```
+        This will put all children elements in a row instead of stacking them.
+    ```Display: block ```
+        This will place all children elments in a column. This is the default property of all html tags, placings elements ontop of each other
+3. Four ares of the box model:
+    - Content: This is the actual element. Space taken up by the  element
+    - Padding: This is the space between the Content and border
+    - Margin: this is the space between the border and the rest of the page
+    - Border: This is the space between the margin anf paddig. it can be styled so we can actually have see it.
+4. ``` align-axis: center``` aligns elements to the center with respect to the cross axis (y axis)
+
+5. Git is important to developers because it let multiple developers work on the same projects, larg or small and along the way it keeps track of all the code we have been working on, so in case in the future we need to reference of a previous version of the code we can go back to that version
 
 ## Project Set Up
 
