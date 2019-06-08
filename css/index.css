@@ -212,5 +212,16 @@ footer nav a {
 }
  section  .cards-section .cards{
      width: 46%;
-     padding-top: 10px
- }
+     padding-top: 10px;
+    }
+    .cards button{
+        margin: 10px;
+        padding: 10px 25px; 
+        border-radius: 10px;
+        background-color: white; 
+        text-decoration: none 
+    }
+    section  .cards-section .card-text{
+        width: 100%;
+        margin: 15px 0px 15px 0px;
+    }
