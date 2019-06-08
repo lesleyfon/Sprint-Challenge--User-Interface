@@ -205,3 +205,12 @@ footer nav a {
     border-radius: 1px;
     
 }
+.container section .cards-section{
+    display: flex;  
+    justify-content: space-around;
+    flex-flow:row wrap  ; 
+}
+ section  .cards-section .cards{
+     width: 46%;
+     padding-top: 10px
+ }
