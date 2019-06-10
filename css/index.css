@@ -226,3 +226,17 @@ footer nav a {
         width: 100%;
         margin: 15px 0px 15px 0px;
     }
+
+
+.cards-section .cards img{
+    /* transition-property: opacity; */
+    /* transition-delay: 1s; */
+    transition-duration: 3s;
+    /* transition-timing-function: ease-in-out */
+}
+
+.cards:hover img{
+    opacity: 0.8;
+    transform: scale(1.04);
+    /* transform: rotate(1turn); */
+}
