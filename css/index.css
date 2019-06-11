@@ -214,6 +214,7 @@ footer nav a {
      width: 46%;
      padding-top: 10px;
      position: relative;
+     overflow: hidden;
 
     }
     .cards button{
@@ -242,11 +243,6 @@ footer nav a {
     transform: scale(1.04);
     /* transform: rotate(1turn); */
 }
-.cards:hover .prod-photo{
-    opacity: 1;
-    transform: none;
-    /* transform: rotate(1turn); */
-}
 
 
 .un-splash{
@@ -265,4 +261,27 @@ footer nav a {
     left: 0;
     text-align: center;
     padding-top: 30px;
+}
+
+/* Resetting on hover for image*/
+
+.cards:hover .prod-photo {
+    opacity: 1;
+    transform: none;
+}
+
+.cards .photo-overlay, .cards .prod-photo{  
+    transition: transform 1s ease-in-out;
+}
+
+.cards .photo-overlay{
+    transform: translate(-100%)
+}
+
+.cards:hover .photo-overlay{
+    transform: translate(0%);
+}
+
+.cards:hover .prod-photo{
+    transform: translate(100%)
 }
