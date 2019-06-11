@@ -79,8 +79,6 @@ p {
 
     }
 
-
-
 .cards-section .cards img{
     /* transition-property: opacity; */
     /* transition-delay: 1s; */
@@ -94,7 +92,6 @@ p {
     /* transform: rotate(1turn); */
 }
 /* Resetting on hover for image*/
-
 .cards:hover .prod-photo {
     opacity: 1;
     transform: none;
@@ -105,7 +102,9 @@ p {
 }
 
 .cards .photo-overlay{
-    transform: translate(-100%)
+    transform: translate(-100%);
+    background: #778DA9;
+    font-weight: bold;
 }
 
 .cards:hover .photo-overlay{
@@ -114,4 +113,7 @@ p {
 
 .cards:hover .prod-photo{
     transform: translate(100%)
+}
+.cards-section .cards:last-child{
+    width: 100%;
 }

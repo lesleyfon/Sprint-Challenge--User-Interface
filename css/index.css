@@ -263,25 +263,3 @@ footer nav a {
     padding-top: 30px;
 }
 
-/* Resetting on hover for image*/
-
-.cards:hover .prod-photo {
-    opacity: 1;
-    transform: none;
-}
-
-.cards .photo-overlay, .cards .prod-photo{  
-    transition: transform 1s ease-in-out;
-}
-
-.cards .photo-overlay{
-    transform: translate(-100%)
-}
-
-.cards:hover .photo-overlay{
-    transform: translate(0%);
-}
-
-.cards:hover .prod-photo{
-    transform: translate(100%)
-}
