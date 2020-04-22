@@ -70,13 +70,34 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.container header {
+    position: fixed;
+    top: 0px;
+    background-color: #ffffff;
+    width: 800px;
+}
+.container header nav{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: baseline;
+    padding: 10px;
+}
+header nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.home-jumbotron{
+    margin-top: 100px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 50px; 
 }
 
 .top-content .text-container {
@@ -112,6 +133,36 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid
+}
+.middle-content .boxes .box8{
+    background-color: hotpink
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +195,71 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* About page css */
+
+.home-jumbotron h4{
+    padding-top: 10px;
+}
+ hr{
+    border: 1px dashed grey;
+    border-radius: 1px;
+    
+}
+.container section .cards-section{
+    display: flex;  
+    justify-content: space-around;
+    flex-flow:row wrap  ; 
+}
+ section  .cards-section .cards{
+     width: 46%;
+     padding-top: 10px;
+     position: relative;
+     overflow: hidden;
+
+    }
+    .cards button{
+        margin: 10px;
+        padding: 10px 25px; 
+        border-radius: 10px;
+        border: #000000 solid 2px;
+        background-color: white; 
+        text-decoration: none 
+    }
+    section  .cards-section .card-text{
+        width: 100%;
+        margin: 15px 0px 15px 0px;
+    }
+
+
+.cards-section .cards img{
+    /* transition-property: opacity; */
+    /* transition-delay: 1s; */
+    transition-duration: 3s;
+    /* transition-timing-function: ease-in-out */
+}
+
+.cards:hover img{
+    opacity: 0.8;
+    transform: scale(1.04);
+    /* transform: rotate(1turn); */
+}
+
+
+.un-splash{
+    width: 23.125em;
+    height: 14.75em;
+}
+
+.photo-overlay{
+    background-color: blueviolet;
+    position: absolute;
+    width: 23.125em;
+    height: 14.75em;
+    top: .625em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
